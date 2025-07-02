@@ -18,9 +18,9 @@ It includes daily exercises, mini projects, and assignments – all organized fo
 - HTML Fundamentals
 - CSS Styling, Flexbox & Grid
 - JavaScript Basics
-- DOM Manipulation
+
 - Responsive Design
-- Bootstrap (if applicable)
+
 - React.js (upcoming)
 
 ### 🔹 Backend
@@ -29,7 +29,5 @@ It includes daily exercises, mini projects, and assignments – all organized fo
 - Working with APIs
 - MongoDB / SQL (Database concepts)
 
----
 
-## 🗂️ Folder Structure (Example)
 
