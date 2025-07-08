@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>📚 Book Finder</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>📚 Book Finder</h1>
+
+    <div class="search-row">
+        <input type="text" id="searchInput" placeholder="Search books like 'Harry Potter', 'React', 'Design'..." />
+        <button onclick="handleSearch()">Search</button>
+    </div>
+
+    <p class="suggestion">💡 Suggestions: HTML, AI, React, UI Design, Marketing</p>
+
+    <p id="loadingText" class="loading" style="display:none;">Loading...</p>
+    <p id="notFoundText" class="not-found" style="display:none;">No books found. Try a different keyword.</p>
+
+    <table id="resultsTable" style="display:none;">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Publisher</th>
+                <th>Price</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody id="resultsBody">
+            <!-- Book rows will be injected here -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
