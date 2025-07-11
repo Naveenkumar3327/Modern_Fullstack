@@ -1,0 +1,33 @@
+.counter-container {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.counter-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.counter-container p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.counter-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3b82f6;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.counter-container button:hover {
+    background-color: #2563eb;
+}
